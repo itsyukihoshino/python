@@ -1,0 +1,22 @@
+import turtle
+turtle.shape("turtle")
+
+turtle.circle(200)
+
+turtle.circle(100,180)
+turtle.circle(-100,180)
+turtle.right(90)
+turtle.penup()
+turtle.forward(50)
+turtle.right(90)
+turtle.circle(50)
+turtle.circle(50)
+turtle.pendown()
+turtle.circle(50)
+turtle.left(90)
+turtle.penup()
+turtle.forward(100)
+turtle.forward(100)
+turtle.right(90)
+turtle.pendown()
+turtle.circle(50)
