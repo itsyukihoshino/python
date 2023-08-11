@@ -8,9 +8,9 @@ win.setup(800,600)
 # win.bgpic('grid.gif')
 win.title('Example 20 ')
 
-#create turtle
+#create turtle object
 t1 = turtle.Turtle()
-t1.turtle.Turtle()
+
 t1.speed("slowest")
 t1.pencolor("blue")
 t1.pensize(5)
