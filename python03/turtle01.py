@@ -44,6 +44,23 @@ t1.forward(50)
 t1.pendown()
 t1.circle(15)
 turtle.bgcolor("light green")
+t1.right(90)
+t1.penup()
+t1.forward(100)
+t1.pendown()
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 win.exitonclick()
