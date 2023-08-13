@@ -12,6 +12,8 @@ t.hideturtle()
 
 #textinput method
 
+
+  #A   =   B
 mycolor = window.textinput("guess color","blue or green")
 
 
@@ -23,14 +25,6 @@ mycolor = window.textinput("guess color","blue or green")
 if mycolor == "blue":
     t.write("you are a boy")
 elif mycolor == "green":
-
-
-
-
-
-
-
-            
     t.write("you are a girl")
 
 
