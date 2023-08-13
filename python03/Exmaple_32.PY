@@ -22,7 +22,6 @@ elif mycolor == "yellow":
     turtle.write("you are a girl")
 elif mycolor == "red":
     turtle.write("you are a clown")
-t.circle(90)
 
 turtle.exitonclick()
 
