@@ -1,4 +1,5 @@
 import turtle
+turtle.shape(turtle)
 
 win = turtle.Screen()
 win.setup(800,600)
