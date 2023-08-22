@@ -7,8 +7,6 @@ window.title("yuki`s example20")
 t = turtle.Turtle()
 t.speed("fastest")
 t.pencolor("black")
-t.penup()
-t.hideturtle()
 
 myAge = window.numinput("AGE INPUT", "Enter age:", 1, minval =1, maxval =120)
 

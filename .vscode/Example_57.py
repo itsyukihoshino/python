@@ -11,4 +11,5 @@ turtle.forward(300)
 turtle.right(140)
 turtle.forward(160)
 turtle.hideturtle()
+
 turtle.exitonclick()
