@@ -20,7 +20,7 @@ window.title('function 04')
 
 
 draw_star(-100,100,"red") #top left corner
-draw_star(-100,-100"blue") #bottom left corner
+draw_star(-100,-100,"blue") #bottom left corner
 
 
 
