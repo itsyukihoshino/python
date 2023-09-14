@@ -4,12 +4,6 @@ def hello_world():
     print("************")   
 
 
-hello_world()
-
-hello_world()
-
-hello_world()
-
-
-
-
+def hello_planet(planet):
+    print(f"Hello, {planet}")
+hello_planet("Earth")
