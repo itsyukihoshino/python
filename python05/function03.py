@@ -6,4 +6,6 @@ def hello_world():
 
 def hello_planet(planet):
     print(f"Hello, {planet}")
+
+    
 hello_planet("Earth")

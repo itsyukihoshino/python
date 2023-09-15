@@ -3,7 +3,7 @@ import turtle
 
 def draw_star(x, y, color):
     t = turtle.turtles
-    turtle.speed("fast")
+    turtle.speed("fastest")
     turtle.penup()
     turtle.goto(x,y)
     turtle.pensize(10)
@@ -18,12 +18,6 @@ window = turtle.Screen()
 window.setup(800,600)
 window.title('function 04')
 
-
-draw_star(-100,100,"light pink") #top left corner
-draw_star(-100,-100,"light blue") #bottom left corner
-draw_star(100, -100,"light green")
-draw_star(100,100,"light yellow")
-draw_star(0,0,"purle")
 
 
 
