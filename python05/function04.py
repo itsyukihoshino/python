@@ -3,7 +3,7 @@ import turtle
 
 def draw_star(x, y, color):
     t = turtle.turtles
-    turtle.speed("fastest")
+    turtle.speed("fast")
     turtle.penup()
     turtle.goto(x,y)
     turtle.pensize(10)
