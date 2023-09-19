@@ -9,8 +9,8 @@ def right():
 
 #enable and register keyboard events
 turtle.listen() 
-turtle.onkey(left, left)
-turtle.onkey(right, right)
+turtle.onkey(left, "Left")
+turtle.onkey(right, "Right")
 
 win = turtle.Screen()
 win.title("SPACE SHIP VS WITH UFOS")
@@ -31,8 +31,11 @@ spaceship.goto(0, -200)
 moveShipBy = 3
 
 #game loop that redraws our screen each time the loop executes
-while Ture:
-
-    spaceship.forward(moveShipby)
-
+# game loop that redraws our screen each time the loop executes
+while True:
+    spaceship.forward(moveShipBy)
     win.update()
+    time.sleep(0.02)
+
+# Add this line to properly close the turtle graphics window
+turtle.done()
