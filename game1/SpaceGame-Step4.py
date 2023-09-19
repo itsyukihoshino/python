@@ -1,13 +1,17 @@
 import turtle
 import time
+import os
+
 
 def left():
-    print(left)
+    print("Moving left")
 
 def right():
-    print(right)
+    print("Moving right")
+# Change the working directory to where the script is located
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 
-#enable and register keyboard events
+ 
 turtle.listen() 
 turtle.onkey(left, "Left")
 turtle.onkey(right, "Right")
@@ -18,24 +22,22 @@ win.setup(800, 600)
 win.bgpic("space-bg.gif")
 win.tracer(0)
 
-#register graphic with turtle graphics
+
 turtle.register_shape("ship.gif")
 
-#create a turtle for my ship
+
 spaceship = turtle.Turtle()
 spaceship.shape("ship.gif")
 spaceship.penup()
 spaceship.speed(0)
 spaceship.goto(0, -200)
 
-moveShipBy = 3
+moveShipBy = 0
 
-#game loop that redraws our screen each time the loop executes
-# game loop that redraws our screen each time the loop executes
 while True:
     spaceship.forward(moveShipBy)
     win.update()
     time.sleep(0.02)
 
-# Add this line to properly close the turtle graphics window
+
 turtle.done()
