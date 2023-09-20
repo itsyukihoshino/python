@@ -34,9 +34,14 @@ moveShipBy = 0
 
 #game loop that redraws our screen each time the loop executes
 while True:
+    
     spaceship.forward(moveShipBy)
-    win.update()
+    
+
+    if spaceship.ycor() > 325:
+        moveShipBy = 0
+    elif spaceship.ycor() < -325:
+        moveShipBy = 0
+        
+    win.update()    
     time.sleep(0.02)
-
-
-turtle.done()
