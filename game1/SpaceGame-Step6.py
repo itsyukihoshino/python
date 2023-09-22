@@ -53,8 +53,8 @@ while True:
     spaceship.forward(moveShipBy)
 
     if bullet.isvisible():
-            bullet.setheading(90)
-            bullet.forward(25)
+        bullet.setheading(90)
+        bullet.forward(25)
 
     if bullet.ycor() > 200:
         bullet.hideturtle()
