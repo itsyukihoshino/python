@@ -54,12 +54,4 @@ while True:
 
     if bullet.isvisible():
         bullet.setheading(90)
-        bullet.forward(25)
-
-    if bullet.ycor() > 200:
-        bullet.hideturtle()
-
-    if spaceship.xcor() > 325:
-        moveShipBy = 0
-    elif spaceship.xcor() < -325:
-        moveShipBy = 0 
+        bullet.forward(25) 
